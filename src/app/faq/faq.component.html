@@ -1,0 +1,53 @@
+<div class="header_title">
+  <span class="inside_text">{{ 'FAQ.FAQ' | translate }}</span>
+</div>
+
+<div class="buttons-container uk-container">
+  <div class="faq-component" style="max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;">
+    <div class="uk-accordion" data-uk-accordion="multiple: true">
+
+      <div class="faq-item"  *ngFor="let service of ('FAQ.data' | translate)" >
+        <h3 class="uk-accordion-title" [ngClass]="(alignAllLeft)?'direct_left':'direct_right'">{{service.title}}</h3>
+        <div class="uk-accordion-content" [ngClass]="(alignAllLeft)?'direct_left':'direct_right'" [innerHtml]="service.descr">
+            
+        </div> 
+      </div>
+
+      <!-- <div *ngFor="let service of ('FAQ.data' | translate)">
+          <p>{{service.title}}</p>
+          <p>{{service.description}}</p>
+      </div> -->
+
+    </div>
+  </div>
+</div>
+
+
+<div class="buttons-container uk-container uk-text-center">
+ 
+  <button class="uk-button uk-button-default play-button uk-width-1-1" (click)="goHome()">{{ 'HOW.BACK' | translate }}</button>
+  <!--<button class="uk-button uk-button-default play-button uk-width-1-1" style="background-image: linear-gradient(to bottom, #ffffff, #c3c3c3 16%, #acacac 84%, #c5c5c5);" *ngIf="!isActive" >Подписаться</button>-->
+  <!-- <button *ngIf="_gamesPlayed >= 3 && !isActive" class="uk-button uk-button-default play-button uk-width-1-1" (click)="startGame()">Play for 0.50$</button>
+  <button *ngIf="_gamesPlayed > 0 && _gamesPlayed < 3  && !isActive" class="uk-button uk-button-default play-button uk-width-1-1" (click)="startGame()" >Play for 0.50$</button>
+  <button *ngIf="_gamesPlayed == 0 && !isActive" class="uk-button uk-button-default play-button uk-width-1-1" (click)="startGame()" >Play</button> -->
+  <!-- <div class="message-container">
+    <span *ngIf="isActive">1st day free – then 0.50$ /day</span>
+    <br>
+    <p *ngIf="isActive">By clicking Subscription you confirm that you<br><a  [routerLink]="['/info']" style="color:white; text-decoration: underline;">have read and agreed to the game rules.</a>
+    </p>
+      <br>
+     <br>
+     <br>
+<br><br>   
+    <p>Услуга оказывается МТС совместно с партнером «ДжЮ Груп»</p>-->
+  <!-- </div> -->
+</div>
+<!--<div class="main-footer uk-container" >-->
+<!--  Служба поддержки:  111777 (бесплатно) или отправьте письмо на support@gu-group.ru-->
+<!--Услуга оказывается МТС совместно с партнером "ДжЮ Груп". Акция проходит под контролем независимого наблюдателя-->
+<!--    <p style="padding-left: 22px">Support: 1234 (toll free) or <a href="mailto:support.mts@gu-group.ru" class="uk-button-link" style="text-decoration:underline">support@gugroup.com</a>-->
+<!--    <br>18+ | © 2019 GU Group. All rights reserved.-->
+<!--    </p>-->
+<!--</div>-->

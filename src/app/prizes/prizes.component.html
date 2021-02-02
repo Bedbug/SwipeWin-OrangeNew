@@ -1,0 +1,48 @@
+
+<div class="header_title">
+  <span class="inside_text">{{ 'PRIZES.PRIZES' | translate }}</span>
+</div>
+
+<div class="buttons-container uk-container uk-text-center">
+    <div class="how-to-play-text" style="max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;">
+      <!-- <img class="icon" src="assets/icons/prize.png" alt=""/> -->
+      <div class="item">
+        <img src="assets/icons/daily_prize.png" alt="">
+        <h4>{{ 'HOME.CAR_03' | translate }}</h4>
+        <p>{{ 'HOME.CAR_03b' | translate }}</p>
+      </div>
+      <div class="item">
+        <img src="assets/icons/weekly_prize.png" alt="">
+        <h4>{{ 'HOME.CAR_02' | translate }}</h4>
+        <p>{{ 'HOME.CAR_02b' | translate }}</p>
+      </div>
+      <div class="item">
+        <img src="assets/icons/monthly_prize.png" alt="">
+        <h4>{{ 'HOME.CAR_01' | translate }}</h4>
+        <p>{{ 'HOME.CAR_01b' | translate }}</p>
+      </div>
+      <div class="item">
+        <img src="assets/icons/grand_prize.png" alt="">
+        <h4 [innerHtml]="'HOME.CAR_04' | translate"></h4>
+        <p>{{ 'HOME.CAR_04b' | translate }}</p>
+      </div>
+    </div>
+      <!-- <div class="item">
+        <span style="font-weight: bold; font-size: 28px;">{{ 'PRIZES.MES_01' | translate }}</span><br>
+        <span >{{ 'PRIZES.MES_02' | translate }}</span>
+      </div>
+    </div>
+    </div> -->
+
+    <div class="buttons-container uk-container uk-text-center">
+      <button class="uk-button uk-button-default play-button uk-width-1-1"  (click)="goHome()">{{ 'PRIZES.BACK' | translate }}</button>
+    </div>
+    <!--<div class="main-footer uk-container" >-->
+    <!--  Служба поддержки:  111777 (бесплатно) или отправьте письмо на support@gu-group.ru-->
+    <!--Услуга оказывается МТС совместно с партнером "ДжЮ Груп". Акция проходит под контролем независимого наблюдателя-->
+    <!--    <p style="padding-left: 22px">Support: 1234 (toll free) or <a href="mailto:support.mts@gu-group.ru" class="uk-button-link" style="text-decoration:underline">support@gugroup.com</a>-->
+    <!--    <br>18+ | © 2019 GU Group. All rights reserved.-->
+    <!--    </p>-->
+    <!--</div>-->

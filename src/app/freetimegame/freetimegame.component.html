@@ -1,0 +1,8 @@
+<div *ngIf="isMobile" (window:resize)="onResize($event)"></div>
+<div *ngIf="isTablet" (window:resize)="onResize($event)"></div>
+<!--<div *ngIf="isDesktopDevice && isLandscape" (window:resize)="onResize($event)" img src="/swipr/src/assets/images/playportrait.jpg" style="width: 100px; height:100px;">And now its Landscape!</div>-->
+<div  *ngIf="isLandscape" style="height: 100%; width: 100%; position: fixed; top: 0; left: 0; background-color: white; display:flex;">
+    <img alt="" src="assets/images/playportrait.jpg" style="margin:auto; max-height: 50%; margin-top: 15%;">
+</div>
+
+<phaser *ngIf="!startAsLandscape" (phaser)="loadGame($event)" ></phaser>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="21px" viewBox="0 0 24 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>how-play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#ff6600" offset="0%"></stop>
+            <stop stop-color="#ff6600" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="how-play" transform="translate(-3.000000, -4.000000)">
+            <polygon id="Path" points="0 0 30 0 30 30 0 30"></polygon>
+            <path d="M25.33,6.564 L23.87,5.953 L23.87,15.803 L26.52,9.411 C26.967,8.298 26.455,7.021 25.33,6.564 M4.059,10.6 L9.47,23.636 C9.79560566,24.446873 10.5715234,24.9870689 11.445,25.011 C11.728,25.011 12.023,24.956 12.306,24.836 L20.346,21.509 C21.13534,21.1747056 21.6589382,20.4127181 21.688,19.556 C21.699,19.273 21.645,18.956 21.546,18.673 L16.091,5.636 C15.775,4.796 14.967,4.284 14.116,4.273 C13.833,4.273 13.549,4.338 13.276,4.436 L5.247,7.764 C4.13617127,8.21945615 3.6041085,9.48853103 4.058,10.6 M21.676,6.455 C21.676,5.25030509 20.6996948,4.27355211 19.495,4.273 L17.913,4.273 L21.676,13.371" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

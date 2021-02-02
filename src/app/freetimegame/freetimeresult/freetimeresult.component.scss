@@ -1,0 +1,102 @@
+#result {
+  h4 {
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .coins {
+    display: flex;
+    justify-content: space-around;
+    p {
+      font-size: 14px;
+      font-weight: bold;
+      color: black;
+      margin: 10px 0;
+    }
+  }
+  
+ 
+  .coinWrap {
+    width: 85px;
+    text-align: center;
+  }
+
+  .coin {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 5px auto 15px;
+    $border: 5px;
+    background: #fff;
+    background-clip: padding-box; /* !importanté */
+    border: solid $border transparent; /* !importanté */
+    border-radius: 50%;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      z-index: -1;
+      margin: -$border; /* !importanté */
+      border-radius: inherit; /* !importanté */
+      background: linear-gradient(to top, #ffd363, #ffe791);
+    }
+    &__number {
+      font-size: 26px;
+      text-align: center;
+      color: #f9971e;
+      line-height: 80px;
+      width: 80px;
+      &_light {
+        color: #ffdb6d;
+        line-height: 90px;
+        width: 90px;
+      }
+    }
+  }
+  .cashbackCoin {
+    width: 90px;
+    height: 90px;
+    background-image: url("../../../assets/images/result-coin.svg");
+  }
+
+  .hint {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 50px;
+    span {
+      font-weight: bold;
+    }
+    &_fail {
+      font-size: 16px;
+      color: #000;
+      margin-bottom: 20px;
+    }
+  }
+  
+}
+.uk-modal{
+    padding-top: 75px;
+  }
+.uk-modal-body{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+.uk-button {
+    border-radius: 17px;
+    margin-bottom: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    min-height: 44px;
+    text-transform: none;
+}

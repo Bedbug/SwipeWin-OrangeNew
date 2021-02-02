@@ -1,0 +1,12 @@
+<div class="unsubscribeDialog" *ngIf="!isUnsubscribeConfirm">
+  <img src="assets/images/wanted.svg" alt="">
+  <h4>Are you sure you want to unsubscribe?</h4>
+  <p>You can win up to 100,000$ and many more super prizes</p>
+  <app-button [primary]="true" class="uk-modal-close">No, I changed my mind</app-button>
+  <app-button [link_button]="true" class="uk-modal-close" (click)="unsubscribe()">Yes, I want to unsubscribe</app-button>
+</div>
+<div class="unsubscribeDialog" *ngIf="isUnsubscribeConfirm">
+  <h4>Вы отменили подписку</h4>
+  <p>Мы будем скучать! Вы можете снова оформить подписку в любое время.</p>
+  <app-button [primary]="true" class="uk-modal-close" routerLink="/home">Вернуться на главную</app-button>
+</div>

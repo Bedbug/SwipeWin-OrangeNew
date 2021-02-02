@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <linearGradient id="d" x1="50.027%" x2="50.027%" y1="-10.171%" y2="107.113%">
+            <stop offset="0%" stop-color="#E33616"/>
+            <stop offset="12.319%" stop-color="#FE7452"/>
+            <stop offset="33.077%" stop-color="#EB5425"/>
+            <stop offset="79.401%" stop-color="#D13500"/>
+            <stop offset="100%" stop-color="#FF3232"/>
+        </linearGradient>
+        <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FA6A48"/>
+            <stop offset="100%" stop-color="#A30000"/>
+        </linearGradient>
+        <circle id="b" cx="27" cy="27" r="27"/>
+        <filter id="a" width="216.7%" height="216.7%" x="-58.3%" y="-41.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="9" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="9"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.88627451 0 0 0 0 0.0470588235 0 0 0 0 0.415686275 0 0 0 0.2 0"/>
+        </filter>
+        <linearGradient id="f" x1="50%" x2="50%" y1="32.551%" y2="186.063%">
+            <stop offset="0%" stop-color="#E1441D"/>
+            <stop offset="100%" stop-color="#F74C4C"/>
+        </linearGradient>
+        <path id="e" d="M27 24.397l5.857-5.858a1.84 1.84 0 0 1 2.604 2.604L29.603 27l5.858 5.857a1.84 1.84 0 0 1-2.604 2.604L27 29.603l-5.857 5.858a1.84 1.84 0 0 1-2.604-2.604L24.397 27l-5.858-5.857a1.84 1.84 0 0 1 2.604-2.604L27 24.397z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(3 3)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <circle cx="27" cy="27" r="26.75" fill="url(#d)" stroke="url(#c)" stroke-linejoin="square" stroke-width=".5"/>
+        </g>
+        <g fill-rule="nonzero" transform="translate(3 3)">
+            <use fill="#FFF" xlink:href="#e"/>
+            <path stroke="url(#f)" stroke-width="3.6" d="M27 21.851l4.585-4.585a3.64 3.64 0 1 1 5.149 5.15L32.149 27l4.585 4.585a3.64 3.64 0 1 1-5.15 5.149L27 32.149l-4.585 4.585a3.64 3.64 0 1 1-5.149-5.15L21.851 27l-4.585-4.585a3.64 3.64 0 1 1 5.15-5.149L27 21.851z"/>
+            <use stroke="#CA0000" stroke-width=".5" xlink:href="#e"/>
+        </g>
+    </g>
+</svg>

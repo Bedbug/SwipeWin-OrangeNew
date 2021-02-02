@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="24px" viewBox="0 0 26 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>prize</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#ff6600" offset="0%"></stop>
+            <stop stop-color="#ff6600" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="prize" transform="translate(-2.000000, -3.000000)">
+            <polygon id="Path" points="0 0 30 0 30 30 0 30"></polygon>
+            <polygon id="Path" points="0 0 30 0 30 30 0 30"></polygon>
+            <path d="M21.5,24 C22.3284271,24 23,24.6715729 23,25.5 L23,25.5 L23,26 C23,26.5522847 22.5522847,27 22,27 L22,27 L8,27 C7.44771525,27 7,26.5522847 7,26 L7,26 L7,25.5 C7,24.6715729 7.67157288,24 8.5,24 L8.5,24 Z M22,3 C22.5522847,3 23,3.44771525 23,4 L23,6 L28,6 L28,10.94 C28,12.1812935 27.2351955,13.2942898 26.0767533,13.7396707 L26.0767533,13.7396707 L22.9447698,14.9450145 C22.4772303,18.91791 19.0985455,22 15,22 C10.9014545,22 7.52276973,18.91791 7.05523016,14.9450145 L3.92342861,13.7397406 C2.76480451,13.2942898 2,12.1812935 2,10.94 L2,10.94 L2,6 L7,6 L7,4 C7,3.44771525 7.44771525,3 8,3 L22,3 Z M7,8.5 L4.5,8.5 L4.5,10.94 C4.5,11.1465672 4.62742168,11.332 4.82075327,11.4063293 L4.82075327,11.4063293 L7,12.244 L7,8.5 Z M25.5,8.5 L23,8.5 L23,12.244 L25.1794286,11.4062594 C25.3449855,11.3426085 25.4622524,11.1972791 25.4923785,11.0269723 L25.5,10.94 L25.5,8.5 Z" id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

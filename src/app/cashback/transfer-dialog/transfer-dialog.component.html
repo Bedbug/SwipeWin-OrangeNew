@@ -1,0 +1,15 @@
+<div class="transferDialog">
+  <div *ngIf="!error">
+    <img src="assets/images/coins-2.svg" alt="">
+    <h4>Congratulations!</h4>
+    <p>Amount has been successfully transferred to your Cashback wallet.</p>
+  </div>
+  
+  <div *ngIf="error">
+    <img src="assets/images/wanted.svg" alt="">
+    <h4>Something went wrong</h4>
+    <p>Amount has not been successfully transferred to your Cashback wallet. Please try again later.</p>
+    <app-button [primary]="true">Try Again</app-button>
+  </div>
+
+</div>

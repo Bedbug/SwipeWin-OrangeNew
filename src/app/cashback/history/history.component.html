@@ -1,0 +1,27 @@
+<div class="buttons-container uk-container">
+<app-table 
+  [data]="data"
+  [headers]="headers"
+>
+</app-table>
+</div>
+<div class="buttons-container uk-container" style="max-width: 600px; margin-left:auto; margin-right:auto;">
+  <!--<app-button [secondary]="true">Показать еще</app-button>-->
+</div>
+<!--<div class="main-footer uk-container" >-->
+<!--  Служба поддержки:  111777 (бесплатно) или отправьте письмо на support@gu-group.ru-->
+<!--Услуга оказывается МТС совместно с партнером "ДжЮ Груп". Акция проходит под контролем независимого наблюдателя-->
+<!--    <p style="padding-left: 22px">Support: 1234 (toll free) or <a href="mailto:support.mts@gu-group.ru" class="uk-button-link" style="text-decoration:underline">support@gugroup.com</a>-->
+<!--    <br>18+ | © 2019 GU Group. All rights reserved.-->
+<!--    </p>-->
+<!--</div>-->
+
+<div id="error" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+      <img src="assets/images/wanted.svg" alt="">
+      <h4>Oups</h4>
+      <p>You must log-in to access this section</p>
+      <!--<p>{{errorMsg}}</p>-->
+      <app-button [link_button]="true" class="uk-modal-close" (click)="goHome()">Back to Homepage</app-button>
+    </div>
+  </div>

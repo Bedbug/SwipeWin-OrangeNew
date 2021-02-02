@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>profile</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#ff6600" offset="0%"></stop>
+            <stop stop-color="#ff6600" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="profile" transform="translate(-5.000000, -4.000000)">
+            <polygon id="Path" points="0 0 30 0 30 30 0 30"></polygon>
+            <path d="M15,14 C12.2385763,14 10,11.7614237 10,9 C10,6.23857625 12.2385763,4 15,4 C17.7614237,4 20,6.23857625 20,9 C20,11.7614237 17.7614237,14 15,14 L15,14 Z M10,16 L20,16 C22.7614237,16 25,18.2385763 25,21 L25,23 C25,24.6568542 23.6568542,26 22,26 L8,26 C6.34314575,26 5,24.6568542 5,23 L5,21 C5,18.2385763 7.23857625,16 10,16 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

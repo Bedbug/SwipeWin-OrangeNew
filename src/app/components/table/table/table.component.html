@@ -1,0 +1,10 @@
+<table class="uk-table uk-table-divider" *ngIf="data?.length">
+  <thead>
+  <tr>
+    <th *ngFor="let headerColumn of headers">{{headerColumn}}</th>
+  </tr>
+  </thead>
+  <tr *ngFor="let row of data">
+    <td *ngFor="let column of row">{{column}}</td>
+  </tr>
+</table>

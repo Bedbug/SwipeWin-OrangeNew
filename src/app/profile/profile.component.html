@@ -1,0 +1,91 @@
+<div class="header_title">
+  <span class="inside_text">{{ 'PROFILE.PROFILE' | translate }}</span>
+</div>
+<div class="profile-component uk-text-center" *ngIf="!isSettingsShowable()" style="max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;">
+  <!--<div class="avatar">-->
+  <!--  <img src="assets/images/avatar.svg" alt=""/>-->
+  <!--</div>-->
+  <!--<div class="avatar" style="margin: 130px;">-->
+  <!--<ngx-avatar *ngIf="showAvatar" class="my-avatar" style="position: absolute; left: 50%; transform: translate(-50%, -115%); max-height:100px" -->
+  
+  <!--  src={{avatarPic}} name={{userName}} -->
+  <!--  size="100" [round]="true">-->
+  <!--</ngx-avatar>-->
+  <!--<img ngxGravatar class="my-avatar" style="position: absolute; left: 50%; transform: translate(-50%, -115%); max-height:100px"  size="100" src="{{avatarPic}}">-->
+  <!--</div>-->
+  <div class="avatar" style="margin: 40px;">
+  <!--<ngx-avatar *ngIf="showAvatar" class="my-avatar" style="position: absolute; left: 50%; transform: translate(-50%, -115%); max-height:100px" -->
+  
+  <!--  src={{avatarPic}} name={{userName}} -->
+  <!--  size="100" [round]="true">-->
+  <!--</ngx-avatar>-->
+  <img ngxGravatar class="my-avatar"   size="100" src="{{avatarPic}}">
+  </div>
+  <!--src="assets/images/avatar.svg"-->
+  <div class="phone">
+    {{_phone}}
+  </div>
+  <div class="results uk-text-center uk-child-width-1-3 uk-grid-collapse uk-grid-divider" uk-grid>
+    <div>
+      <div class="number">
+        {{bestResultToday || '0'}}
+      </div>
+      <div class="text">
+          {{ 'PROFILE.POINTS' | translate }}
+      </div>
+    </div>
+    <div>
+      <div class="number">
+        {{totalGamesCount || '0'}}
+      </div>
+      <div class="text">{{ 'PROFILE.PLAYED' | translate }}</div>
+    </div>
+    <div>
+      <div class="number">
+        {{bestResultAllTime || '0'}}
+        
+      </div>
+      <div class="text">{{ 'PROFILE.BEST' | translate }}</div>
+    </div>
+  </div>
+  <div class="cashback"  >
+    <!-- <div class="uk-width-expand label">Cashback</div>
+    <div class="uk-width-auto amount">{{_cashBackAmount}} $<span uk-icon="chevron-right"></span></div> -->
+  </div>
+  <div class="days-summary" uk-grid >
+    <div class="uk-width-expand label">{{ 'PROFILE.DAYS' | translate }}</div>
+    <!--Games in the game-->
+    <div class="uk-width-auto" style="font-size: 20px;font-weight: bold;color: #ff6600;">{{_daysInGame}}</div>
+  </div>
+  <div class="buttons-container uk-container uk-text-center">
+    <!--Go to Settings-->
+    <button class="uk-button uk-button-default play-button uk-width-1-1" (click)="showSettingsView()">{{ 'PROFILE.SETTINGS' | translate }}</button>
+    <app-button [link_button]="true" [link_button_white]="true"  (click)="goHome()">{{ 'PROFILE.BACK' | translate }}</app-button>
+  </div>
+  <br>
+  
+  <br>
+  
+</div>
+<div *ngIf="isSettingsShowable()">
+  <app-settings></app-settings>
+</div>
+<!--<div class="main-footer uk-container" >-->
+<!--  Служба поддержки:  111777 (бесплатно) или отправьте письмо на support@gu-group.ru-->
+<!--Услуга оказывается МТС совместно с партнером "ДжЮ Груп". Акция проходит под контролем независимого наблюдателя-->
+<!--    <p>Support: 1234 (toll free) or <a href="mailto:support.mts@gu-group.ru" class="uk-button-link" style="text-decoration:underline">support@gugroup.com</a>-->
+<!--      <br>18+   |      © 2019 GU Group. All rights reserved.-->
+<!--    </p>-->
+<!--</div>-->
+
+ <div id="error" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+      <img src="assets/images/wanted.svg" alt="">
+      <h4>{{ 'MESSAGES.MESSAGE_01' | translate }}</h4>
+      <p>{{ 'MESSAGES.MESSAGE_02' | translate }}</p>
+      <!--<p>{{errorMsg}}</p>-->
+      <app-button [link_button]="true" class="uk-modal-close" (click)="goHome()">{{ 'PROFILE.BACK' | translate }}</app-button>
+    </div>
+  </div>

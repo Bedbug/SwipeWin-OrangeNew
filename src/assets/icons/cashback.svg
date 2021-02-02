@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h30v30H0z"/>
+        <path d="M0 0h30v30H0z"/>
+        <circle cx="15" cy="15" r="12" fill="#9198A0"/>
+        <text fill="#FFF" font-family="CorpidE3SCd-Bold, Corpid E3 SCd" font-size="16" font-weight="bold">
+            <tspan x="11" y="21">₽</tspan>
+        </text>
+    </g>
+</svg>

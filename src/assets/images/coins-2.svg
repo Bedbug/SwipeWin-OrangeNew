@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114" height="54" viewBox="0 0 114 54">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFE791"/>
+            <stop offset="100%" stop-color="#FFD363"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#F7921A"/>
+            <stop offset="100%" stop-color="#FB9E23"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M-3-3h60v60H-3z"/>
+        <g>
+            <circle cx="27" cy="27" r="27" fill="url(#a)"/>
+            <circle cx="27" cy="27" r="19.8" fill="url(#b)"/>
+            <text fill="#FFDB6D" font-family=".HelveticaNeueDeskInterface-Regular, .Helvetica Neue DeskInterface" font-size="27">
+                <tspan x="20.272" y="36.8">₽</tspan>
+            </text>
+        </g>
+        <path d="M27-3h60v60H27z"/>
+        <g transform="translate(30)">
+            <circle cx="27" cy="27" r="27" fill="url(#a)"/>
+            <circle cx="27" cy="27" r="19.8" fill="url(#b)"/>
+            <text fill="#FFDB6D" font-family=".HelveticaNeueDeskInterface-Regular, .Helvetica Neue DeskInterface" font-size="27">
+                <tspan x="20.272" y="36.8">₽</tspan>
+            </text>
+        </g>
+        <g>
+            <path d="M57-3h60v60H57z"/>
+            <g transform="translate(60)">
+                <circle cx="27" cy="27" r="27" fill="url(#a)"/>
+                <circle cx="27" cy="27" r="19.8" fill="url(#b)"/>
+                <text fill="#FFDB6D" font-family=".HelveticaNeueDeskInterface-Regular, .Helvetica Neue DeskInterface" font-size="27">
+                    <tspan x="20.272" y="36.8">₽</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

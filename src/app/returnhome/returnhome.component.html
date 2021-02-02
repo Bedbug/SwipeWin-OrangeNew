@@ -1,0 +1,236 @@
+<!-- <div class="mts-logo" style="width:80px;">
+  <img src="assets/images/gulogo.svg" alt="">
+</div> -->
+
+<div class="slideshow-container" *ngIf="!openVerify" uk-slideshow="animation: fade; min-height: 400; max-height: 400; autoplay: true; autoplay-interval: 1500; pause-on-hover: false;" >
+
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+    
+        <ul class="uk-slideshow-items" >
+            <li class="list-wrapper">
+            
+                <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                    <div class="vector">
+                        <img class="icon" style="width: 300px;" src="assets/icons/monthly_prize.png" alt=""/>
+                      </div>
+                      <div uk-slideshow-parallax="x: 100,0,0" class="current-prize-fond">
+                        <span style="font-weight: bold; font-size: 30px; color: white;" [innerHtml]="'HOME.CAR_01' | translate"></span><br>
+                        <span style=" font-size: 20px; color: white;">{{ 'HOME.CAR_01b' | translate }}</span>
+                    </div>
+                 
+                </div>
+              </li>
+              <li class="list-wrapper">
+            
+                  <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                      <div class="vector">
+                          <img class="icon" style="width: 300px;" src="assets/icons/weekly_prize.png" alt=""/>
+                        </div>
+                        <div uk-slideshow-parallax="x: 100,0,0" class="current-prize-fond">
+                          <span style="font-weight: bold; font-size: 30px; color: white;" [innerHtml]="'HOME.CAR_02' | translate"></span><br>
+                          <span style=" font-size: 20px; color: white;">{{ 'HOME.CAR_02b' | translate }}</span>
+                      </div>
+                   
+                  </div>
+                </li>
+          <li class="list-wrapper">
+            
+          <div class="uk-position-center uk-position-small uk-text-center uk-light">
+              <div class="vector">
+                  <img class="icon" style="width: 300px;" src="assets/icons/daily_prize.png" alt=""/>
+                </div>
+              <div uk-slideshow-parallax="x: 100,0,0" class="current-prize-fond">
+                <span style="font-weight: bold; font-size: 30px; color: white;" [innerHtml]="'HOME.CAR_03' | translate"></span><br>
+                <span style=" font-size: 20px; color: white;">{{ 'HOME.CAR_03b' | translate }}</span>
+              </div>
+          </div>
+          </li>
+          
+          
+          <li class="list-wrapper">
+            
+            <div class="uk-position-center uk-position-small uk-text-center uk-light">
+                <div class="vector">
+                    <img class="icon" style="width: 300px;" src="assets/icons/grand_prize.png" alt=""/>
+                  </div>
+                  <div uk-slideshow-parallax="x: 100,0,0" class="current-prize-fond">
+                    <span style="font-weight: bold; font-size: 30px; color: white;" [innerHtml]="'HOME.CAR_04' | translate"></span><br>
+                    <span style=" font-size: 20px; color: white;">{{ 'HOME.CAR_04b' | translate }}</span>
+                </div>
+             
+            </div>
+          </li>
+          <!-- <li class="list-wrapper">
+            <div class="uk-position-center uk-position-small uk-text-center uk-light">
+              <div class="vector">
+                <img src="assets/images/coin-1.svg" alt="">
+              </div>
+              <div class="current-prize-fond">
+                <h2 class="uk-margin-remove">Daily Prize</h2>
+                <span class="roubles uk-margin-remove">10,000$</span>
+              </div>
+            </div>
+          </li>
+          <li class="list-wrapper">
+            <div class="uk-position-center uk-position-medium uk-text-center">
+              <div uk-slideshow-parallax="scale: 1,1,0.8">
+                <div class="vector">
+                  <img src="assets/images/coins.svg" alt="">
+                </div>
+                <div
+                  uk-slideshow-parallax="x: 200,0,0"
+                  class="current-prize-fond">
+                  <h2 class="uk-margin-remove">Monthly Prize</h2>
+                  <span
+                    uk-slideshow-parallax="x: 400,0,0;"
+                    class="roubles uk-margin-remove">100,000$</span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list-wrapper">
+            <div class="uk-position-center uk-position-medium uk-text-center">
+              <div uk-slideshow-parallax="scale: 1,1,0.8">
+                <div class="vector">
+                  <img src="assets/images/gift.svg" alt="">
+                </div>
+                <div class="current-prize-fond">
+                  <h2 class="uk-margin-remove">CASHBACK Prizes</h2>
+                  <span class="cashback-text uk-margin-remove">on every game</span>
+                </div>
+              </div>
+            </div>
+          </li> -->
+        </ul>
+    
+        <ul class="uk-slideshow-nav uk-dotnav uk-flex-center "></ul>
+      </div>
+ 
+</div>
+  
+  
+  
+  <!-- 1. Check if MSISDN is in Header. If Yes Auto Login - goto 3
+  2. If No MSISDN in header open Subscribe/login. User adds his MSISDN and we check if already registered, create pin and sent to user by smartlink. If not check with libnumber if orange and register him.
+  3. Open OTP submit page. Check user for correct password.
+  4. Check if User has credits. (screen play now)
+  5. If not check if eligible to buy new. (Screen buy new round)
+  6. if not, alert that he has reached maximum. -->
+  
+  
+  
+  <!--PLAY BUTTONS-->
+  <div class="buttons-container uk-container uk-text-center" *ngIf="loggedin" tabindex="-1">
+    <!-- <div class="message-container" style="margin-top: 100px">
+      <p style="font-size: 22px;color: rgb(255, 255, 255);text-align: center;">Please enter the 4-digit PIN code received to your mobile</p>
+      
+    </div> -->
+    <div class="buttons-container uk-container uk-text-center"  style="max-width: 595px; margin-bottom: 50px;">
+      
+      <!-- <h4 style="color:white;">Insert your phone number and password to login</h4> -->
+    
+      <div class="buttons-container uk-container uk-text-center">
+        <button class="uk-button uk-button-default play-button uk-width-1-1" *ngIf="loggedin &&  this.sessionService.hasCredit() && _gamesPlayed < 4" (click)="startGame()">{{ 'HOME.PLAY' | translate }}</button> 
+        <button class="uk-button uk-button-default play-button uk-width-1-1" *ngIf="loggedin &&  !this.sessionService.hasCredit() && _gamesPlayed < 4" (click)="OpenOTPPurchase()">{{ 'HOME.BUY' | translate }}</button>
+        <button class="uk-button uk-button-default uk-width-1-1" *ngIf="loggedin && _gamesPlayed >= 4"  disabled>{{ 'HOME.NOMORE' | translate }}</button>
+      </div>
+      <!-- <div class="message-container" style="margin-top: 30px;">
+        <p style="color:rgb(0, 0, 0); font-weight: bold; font-size: 20px;"><a  [routerLink]="['/info']" style="color:rgb(255, 255, 255); text-decoration: underline;">Resend PIN</a>
+        </p>
+        
+      </div> -->
+      
+    </div>
+    </div>
+  <!--END OF PLAY BUTTONS-->
+  
+ 
+  <div class="main-footer uk-container" *ngIf="!openVerify" style="text-align: center;">
+      {{ 'HOME.FOOTER_01' | translate }}
+    <br>
+    <p >
+    {{ 'HOME.FOOTER_02' | translate }}<br>{{ 'HOME.FOOTER_02b' | translate }}<a  [routerLink]="['/info']" style="color:white; text-decoration: underline;">{{ 'HOME.FOOTER_02c' | translate }}</a>
+    </p>
+    <span style="color:#ff6600">{{ 'HOME.FOOTER_03' | translate }}</span>
+    
+  </div>
+  <!-- <div class="main-footer uk-container" *ngIf="isSubscribed && !showLogin" style="max-width:100%">
+   Служба поддержки:  111777 (бесплатно) или отправьте письмо на support@gu-group.ru
+  Услуга оказывается МТС совместно с партнером "ДжЮ Груп". Акция проходит под контролем независимого наблюдателя
+     <p>Support: 1234 (toll free) or <a href="mailto:support.mts@gu-group.ru" class="uk-button-link" style="text-decoration:underline">support@gugroup.com</a>
+       <br>18+   |      © 2019 GU Group. All rights reserved.
+     </p>
+  </div> -->
+    
+  <!--<div class="main-footer2 uk-container" *ngIf="isSubscribed && showLogin" style="max-width:100%">-->
+  <!--  Служба поддержки:  111777 (бесплатно) или отправьте письмо на support@gu-group.ru-->
+  <!--Услуга оказывается МТС совместно с партнером "ДжЮ Груп". Акция проходит под контролем независимого наблюдателя-->
+  <!--    <p>Support: 1234 (toll free) or <a href="mailto:support.mts@gu-group.ru" class="uk-button-link" style="text-decoration:underline">support@gugroup.com</a>-->
+  <!--      <br>18+   |      © 2019 GU Group. All rights reserved.-->
+  <!--    </p>-->
+  <!--  </div>-->
+    
+    <!-- <div id="error" class="uk-flex-top" uk-modal>
+      <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+        <img src="assets/images/wanted.svg" alt="">
+        <h4>Oops...</h4>
+      <pre>{{errorMsg}}</pre>
+      
+      <app-button *ngIf="!logOutBtn" [link_button]="true" class="uk-modal-close">Back</app-button>
+      <app-button *ngIf="gotofaqBtn" [link_button]="true" class="uk-modal-close" (click)="gotoFaqPage()">Read more at FAQs</app-button>
+      <app-button *ngIf="logOutBtn" [link_button]="true" class="uk-modal-close" (click)="logOutUser()">Back</app-button>
+        
+      </div>
+    </div> -->
+    <div id="otp" class="uk-flex-top" uk-modal>
+      <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+        <div class="buttons-container uk-container uk-text-center" tabindex="-1">
+          <div class="message-container" style="margin-top: 100px">
+            <p style="font-size: 22px;color:  rgb(32, 32, 32);text-align: center;">{{ 'HOME.OTP' | translate }}</p>
+            <!--<p>Услуга оказывается МТС совместно с партнером «ДжЮ Груп»</p>-->
+          </div>
+          <div class="buttons-container uk-container uk-text-center"  style="max-width: 595px; margin-bottom: 0px;">
+            
+            <!-- <h4 style="color:white;">Insert your phone number and password to login</h4> -->
+            <form >
+              <div class="uk-margin" >
+                  <div class="uk-inline uk-width-1-1 ">
+                      <a class="uk-form-icon uk-form-icon-flip" ><img class=".uk-position-right" (click)="OpenPass()" src="assets/icons/eye.svg" alt=""></a>
+                      
+                      <input #pin class="uk-input " type="{{passType}}" placeholder="....">
+                  </div>
+              </div>
+            </form>
+            
+            <div class="buttons-container uk-container uk-text-center">
+              <p *ngIf="verErrorMes" style="font-size: 12px; color: rgb(32, 32, 32);">{{ 'HOME.VERERROR' | translate }}</p>
+              <button class="uk-button uk-button-default play-button uk-width-1-1 "  (click)="verify(pin.value)">{{ 'HOME.CONFIRM' | translate }}</button> 
+              <!-- <button class="uk-button uk-button-default play-button uk-width-1-1" *ngIf="!sessionService.isSubscribed" (click)="purchaseCredit()">{{ 'HOME.BUY' | translate }}</button> -->
+            </div>
+            <div class="message-container" style="margin-top: 0px;">
+              <!-- <p style="color:rgb(0, 0, 0); font-weight: bold; font-size: 20px;"><a (click)="resetPin()" style="color: rgb(32, 32, 32); text-decoration: underline;">{{ 'HOME.RESEND' | translate }}</a> -->
+              <!-- </p> -->
+              <!--<p>Услуга оказывается МТС совместно с партнером «ДжЮ Груп»</p>-->
+            </div>
+            
+          </div>
+          </div>
+      
+        </div>
+    </div>
+
+    <div id="error" class="uk-flex-top" uk-modal>
+      <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+        <img src="assets/images/wanted.svg" alt="">
+        <h4>{{ 'END.MES_01' | translate }}</h4>
+      <pre>{{ 'MESSAGES.MESSAGE_16' | translate }}</pre>
+      <!--<p>{{errorMsg}}</p>-->
+      <!-- <app-button *ngIf="!logOutBtn" [link_button]="true" class="uk-modal-close">{{ 'MESSAGES.MESSAGE_07' | translate }}</app-button> -->
+      
+      <app-button  [link_button]="true" class="uk-modal-close" (click)="returnHome()">{{ 'MESSAGES.MESSAGE_15' | translate }}</app-button>
+        
+      </div>
+    </div>
+
+  

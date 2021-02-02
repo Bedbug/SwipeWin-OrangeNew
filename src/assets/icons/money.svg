@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="174px" height="174px" viewBox="0 0 174 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>6E3A52FE-EC34-4CB2-A5EF-883A28DC3621</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFE791" offset="0%"></stop>
+            <stop stop-color="#FFD363" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#F7921A" offset="0%"></stop>
+            <stop stop-color="#FB9E23" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="web-app" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.5_tutorial" transform="translate(-73.000000, -112.000000)">
+            <g id="Group-2" transform="translate(73.000000, 112.000000)">
+                <g id="Group" transform="translate(6.000000, 43.000000)">
+                    <rect id="Rectangle" x="81" y="9" width="81" height="81"></rect>
+                    <circle id="Oval" fill="url(#linearGradient-1)" cx="121.5" cy="49.5" r="36.45"></circle>
+                    <circle id="Oval" fill="url(#linearGradient-2)" cx="121.5" cy="49.5" r="26.73"></circle>
+                    <text id="₽" font-family=".HelveticaNeueDeskInterface-Regular, .Helvetica Neue DeskInterface" font-size="36.45" font-weight="normal" fill="#FFDB6D">
+                        <tspan x="112.417134" y="62.63">₽</tspan>
+                    </text>
+                    <rect id="Rectangle" x="0" y="9" width="81" height="81"></rect>
+                    <circle id="Oval" fill="url(#linearGradient-1)" cx="40.5" cy="49.5" r="36.45"></circle>
+                    <circle id="Oval" fill="url(#linearGradient-2)" cx="40.5" cy="49.5" r="26.73"></circle>
+                    <text id="₽" font-family=".HelveticaNeueDeskInterface-Regular, .Helvetica Neue DeskInterface" font-size="36.45" font-weight="normal" fill="#FFDB6D">
+                        <tspan x="31.4171341" y="62.63">₽</tspan>
+                    </text>
+                    <rect id="Rectangle" x="36" y="0" width="90" height="90"></rect>
+                    <circle id="Oval" fill="url(#linearGradient-1)" cx="81" cy="45" r="40.5"></circle>
+                    <circle id="Oval" fill="url(#linearGradient-2)" cx="81" cy="45" r="29.7"></circle>
+                    <text id="₽" font-family=".HelveticaNeueDeskInterface-Regular, .Helvetica Neue DeskInterface" font-size="40.5" font-weight="normal" fill="#FFDB6D">
+                        <tspan x="70.9079268" y="59.7">₽</tspan>
+                    </text>
+                    <polygon id="Star" fill="#FFFFFF" points="99 22.9092727 91.9289322 26.0710678 95.0907273 19 91.9289322 11.9289322 99 15.0907273 106.071068 11.9289322 102.909273 19 106.071068 26.0710678"></polygon>
+                    <polygon id="Star-Copy" fill="#FFFFFF" points="70 74.3455636 65.7573593 76.2426407 67.6544364 72 65.7573593 67.7573593 70 69.6544364 74.2426407 67.7573593 72.3455636 72 74.2426407 76.2426407"></polygon>
+                    <polygon id="Star-Copy-2" fill="#FFFFFF" points="15 44.3455636 10.7573593 46.2426407 12.6544364 42 10.7573593 37.7573593 15 39.6544364 19.2426407 37.7573593 17.3455636 42 19.2426407 46.2426407"></polygon>
+                    <polygon id="Star-Copy-3" fill="#FFFFFF" points="15 44.3455636 10.7573593 46.2426407 12.6544364 42 10.7573593 37.7573593 15 39.6544364 19.2426407 37.7573593 17.3455636 42 19.2426407 46.2426407"></polygon>
+                    <polygon id="Star-Copy-4" fill="#FFFFFF" points="134 72.3455636 129.757359 74.2426407 131.654436 70 129.757359 65.7573593 134 67.6544364 138.242641 65.7573593 136.345564 70 138.242641 74.2426407"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

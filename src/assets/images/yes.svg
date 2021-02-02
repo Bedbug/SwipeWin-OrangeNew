@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <linearGradient id="d" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FDFF67"/>
+            <stop offset="15.537%" stop-color="#8FF212"/>
+            <stop offset="83.887%" stop-color="#3EAD07"/>
+            <stop offset="100%" stop-color="#2BC71C"/>
+        </linearGradient>
+        <linearGradient id="c" x1="50%" x2="50%" y1="62.805%" y2="0%">
+            <stop offset="0%" stop-color="#00AC36"/>
+            <stop offset="100%" stop-color="#F7FFCD"/>
+        </linearGradient>
+        <circle id="b" cx="27" cy="27" r="27"/>
+        <filter id="a" width="216.7%" height="216.7%" x="-58.3%" y="-41.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="9" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="9"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.349019608 0 0 0 0 0.968627451 0 0 0 0 0.290196078 0 0 0 0.2 0"/>
+        </filter>
+        <path id="f" d="M35.874 19.535a1.823 1.823 0 0 1 2.596.015 1.866 1.866 0 0 1-.015 2.62L25.14 35.466a1.823 1.823 0 0 1-2.58 0l-6.013-5.995a1.866 1.866 0 0 1-.016-2.621 1.823 1.823 0 0 1 2.595-.016l4.723 4.709 12.026-12.007z"/>
+        <filter id="e" width="156.5%" height="176.5%" x="-28.3%" y="-38.2%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius="2.5" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"/>
+            <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0.4 0 0 0 0 0.811764706 0 0 0 0 0.0470588235 0 0 0 1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(3 3)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <circle cx="27" cy="27" r="26.75" fill="url(#d)" stroke="url(#c)" stroke-linejoin="square" stroke-width=".5"/>
+        </g>
+        <g fill-rule="nonzero" transform="translate(3 3)">
+            <use fill="#000" filter="url(#e)" xlink:href="#f"/>
+            <path fill="#FFF" fill-rule="evenodd" stroke="#007419" stroke-width=".5" d="M23.848 31.188l11.85-11.83c.819-.817 2.14-.81 2.95.017a2.116 2.116 0 0 1-.016 2.973L25.316 35.642a2.073 2.073 0 0 1-2.934 0l-6.013-5.995a2.116 2.116 0 0 1-.018-2.973 2.073 2.073 0 0 1 2.95-.018l4.547 4.532z"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,182 @@
+.header{
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  .uk-navbar-container{
+    background: black;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.09);
+    height: 68px;
+  }
+
+}
+.hamburger-inner {
+  margin-top: -10px;
+  padding-left: 16px;
+}
+/*toggle-icon*/
+.toggle-icon {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.toggle-icon .bar {
+  display: block;
+  width: 24px;
+  height: 3px;
+  margin-bottom: 4px;
+  background:  #ffffff;
+  /* border-right: 2.8em solid #fff; */
+  /* border-left: 0.6em solid #d6d6d6; */
+  box-sizing: border-box;
+  transition-property: margin, border-right-color, box-shadow, -webkit-transform;
+  transition-property: transform, margin, border-right-color, box-shadow;
+  transition-property: transform, margin, border-right-color, box-shadow, -webkit-transform;
+  transition-duration: 600ms;
+}
+
+.toggle-icon .bar:nth-of-type(1) {
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+
+.toggle-icon .bar:nth-of-type(2) {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+/*pushed*/
+
+.pushed .bar:nth-of-type(1) {
+  opacity: 0;
+}
+
+.pushed .bar:nth-of-type(2) {
+  -webkit-transform: rotate(-137deg) translateX(-1px) translateY(2px);
+  -moz-transform: rotate(-137deg) translateX(-1px) translateY(2px);
+  -ms-transform: rotate(-137deg) translateX(-1px) translateY(2px);
+  -o-transform: rotate(-137deg) translateX(-1px) translateY(2px);
+  transform: rotate(-137deg) translateX(-1px) translateY(2px);
+}
+
+.pushed .bar:nth-of-type(3) {
+  margin-left: 0;
+  -webkit-transform: rotate(-45deg) translateX(7px) translateY(-3px);
+  -moz-transform: rotate(-45deg) translateX(7px) translateY(-3px);
+  -ms-transform: rotate(-45deg) translateX(7px) translateY(-3px);
+  -o-transform: rotate(-45deg) translateX(7px) translateY(-3px);
+  transform: rotate(-45deg) translateX(7px) translateY(-3px);
+}
+
+.pushed .toggle-icon:hover .bar:nth-of-type(2) {
+  border-right-color: #e9b8b9; //box-shadow: 0.4em 0 0.6em 0.1em rgba(205,40,44,0.75);
+}
+
+.pushed .toggle-icon:hover .bar:nth-of-type(3) {
+  border-right-color: #ddf1da; //box-shadow: 0.4em 0 0.6em 0.1em rgba(83,228,68,0.65);
+}
+
+@media (max-width: 767px), (max-height: 799px) {
+  // .uk-offcanvas-bar {
+  //   box-sizing: border-box;
+  //   padding: 20px 20px;
+  //   background: #fff;
+  //   overflow-y: auto;
+  //   -webkit-overflow-scrolling: touch;
+  // }
+  #offcanvas-nav .offcanvas-footer {
+    background-color: #f2f3f7;
+    padding: 17px 0px 15px 0px;
+    
+  }
+  .uk-offcanvas-bar {
+    background: #262729;
+  }
+}
+
+.text-input[_ngcontent-c4] label[_ngcontent-c4] {
+  text-align: left;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) and (min-height: 800px){
+  #offcanvas-nav .offcanvas-footer {
+    background-color: #f2f3f7;
+    padding: 17px 0px 15px 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .uk-offcanvas-bar {
+    background: #262729;
+  }
+  
+  
+}
+
+#offcanvas-nav .nav-list-button {
+    
+    line-height: 0px;
+    
+}
+#offcanvas-nav .nav-list-box span {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#offcanvas-nav .nav-list-box {
+  border-bottom: 1px solid black !important;
+    padding: 15px;
+    padding-right: 0;
+    margin-left: 14px;
+    padding-left: 7px;
+    margin-right: 14px;
+}
+
+.mts-logo{
+  position: absolute;
+  right: -1rem;
+  z-index: 999;
+  top: -6px;
+  img{
+    padding-top: 0.2rem;
+    padding-right: 1rem;
+  }
+}
+
+#offcanvas-nav .nav-list-icon {
+  width: 25px;
+  vertical-align: sub;
+  margin-right: 10px;
+  padding-top: 2px;
+}
+
+.uk-navbar-right {
+  margin-left: auto;
+  position: absolute;
+  right: 0px;
+}
+.uk-navbar-left {
+  // flex-wrap: wrap;
+  position: absolute;
+  left: 65px;
+}
+
+.uk-navbar-left_b {
+  // flex-wrap: wrap;
+  position: absolute;
+}
+
+.direct_right{
+  direction: rtl;
+}
+.direct_left{
+  direction: ltr;
+}
+

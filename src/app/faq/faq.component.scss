@@ -1,0 +1,130 @@
+.faq-component {
+  margin: 16px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #000000;
+  .faq-item {
+    padding: 16px 11px 16px 11px;
+    border-radius: 0px;
+    box-shadow: 0 2px 20px 0 rgba(60, 61, 64, 0.1), 0 2px 4px 0 rgba(55, 55, 56, 0.2);
+    background-color: #1b1b1d;
+    .uk-accordion-content {
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: #ffffff;
+    }
+  }
+}
+.uk-accordion-title:before {
+  background-color: #9b9b9b;
+  mask: url('../../../node_modules/uikit/src/images/icons/chevron-down.svg') no-repeat 50% 50%;
+}
+.uk-open {
+  .uk-accordion-title:before {
+    background-color: #9b9b9b;
+    mask: url('../../../node_modules/uikit/src/images/icons/chevron-up.svg') no-repeat 50% 50%;
+  }
+}
+.message-container{
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 13px;
+    margin-top: 0.5em;
+  }
+  
+.buttons-container{
+  max-width: 600px;
+}
+
+.main-footer{
+  background-color: #f2f3f7;
+  padding: 1.3rem;
+  color: #9198a0;
+  .uk-button-link{
+    color: #9198a8;
+    cursor:pointer;
+  }
+}
+
+#error {
+  text-align: center;
+  padding-top: 15px;
+  h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 20px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.43;
+    color: #6e7782;
+  }
+}
+#save {
+  text-align: center;
+  padding-top: 15px;
+  h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 20px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.43;
+    color: #6e7782;
+  }
+}
+
+.uk-accordion-title {
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #ff6600;
+  overflow: hidden;
+}
+
+.direct_right{
+  direction: rtl;
+  text-align: right;
+}
+.direct_right::before {
+  float: left;
+}
+.direct_left{
+  direction: ltr;
+  text-align: left;
+  
+}
+
+.direct_left::before {
+  float: right;
+}
+
+
+// .uk-accordion-title::before {
+//   content: "";
+//   // width: 1.4em;
+//   // height: 1.4em;
+//   // margin-left: 10px;
+//   float: left;
+//   // background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2213%22%20height%3D%2213…22%20height%3D%2213%22%20x%3D%226%22%20y%3D%220%22%20%2F%3E%0A%3C%2Fsvg%3E);
+//   // background-repeat: no-repeat;
+//   // background-position: 50% 50%;
+// }
+

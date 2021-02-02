@@ -1,0 +1,39 @@
+<app-button [link_button]="true" id="openmodal" data-uk-modal="{target:'#result'}" uk-toggle="target: #result"></app-button>
+
+<div id="result" class="uk-flex-top"  uk-modal>
+  <!--Top Text-->
+  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+    <h4>{{TopText}}</h4>
+    <div class="coins">
+      <!--Correct Answers-->
+      <div class="coinWrap">
+        <div class="coin">
+          <div class="coin__number">{{rightAnswerCount}}</div>
+        </div>
+        <p>{{answerMessage}}</p>
+      </div>
+      <!--Won Cash-->
+      <div class="coinWrap" *ngIf="cashbackAmount > 0">
+        <div class = "cashbackCoin">
+          <div class="coin__number coin__number_light">+{{cashbackAmount}}</div>
+        </div>
+        <p>Выигранный кэшбэк</p>
+      </div>
+    </div>
+    <p class="hint" >Игры за денежные призы на сегодня окончены</p>
+    
+    <!--// Test-->
+    <!--<p class="hint" style="white-space: pre-line; margin-bottom: 0px;">{{FooterText}}</p>-->
+    <!--//TEst-->
+    
+    <!--<p class="hint" *ngIf="cashbackAmount == 0"><span>Улучшите результат</span> и выиграйте 25 000 сегодня!</p>-->
+    
+    <!--If there are available games to buy play another game-->
+    <app-button [primary]="true"  class="uk-modal-close" (click)="startGame()" >Играть в удовольствие</app-button>
+    
+    <!--Free Play-->
+    <!--<app-button [outlined]="true" class="uk-modal-close">Свободный режим</app-button>-->
+    <!--Return to home page-->
+    <app-button [link_button]="true" class="uk-modal-close" (click)="goHome()">Вернуться на главную</app-button>
+  </div>
+</div>

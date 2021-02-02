@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="161px"
+   height="110px"
+   viewBox="0 0 161 110"
+   version="1.1"
+   id="svg220"
+   sodipodi:docname="coins.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata224">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1176"
+     inkscape:window-height="838"
+     id="namedview222"
+     showgrid="false"
+     inkscape:zoom="2.4946376"
+     inkscape:cx="76.247443"
+     inkscape:cy="74.790907"
+     inkscape:window-x="1551"
+     inkscape:window-y="228"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g196" />
+  <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+  <title
+     id="title2">Group 3@1x</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs142">
+    <filter
+       x="-19.7%"
+       y="-184.6%"
+       width="139.3%"
+       height="469.2%"
+       filterUnits="objectBoundingBox"
+       id="filter-1">
+      <feGaussianBlur
+         stdDeviation="8"
+         in="SourceGraphic"
+         id="feGaussianBlur6" />
+    </filter>
+    <filter
+       x="-29.3%"
+       y="-20.7%"
+       width="160.3%"
+       height="141.4%"
+       filterUnits="objectBoundingBox"
+       id="filter-2">
+      <feOffset
+         dx="0"
+         dy="0"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset9" />
+      <feGaussianBlur
+         stdDeviation="3"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur11" />
+      <feColorMatrix
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         result="shadowMatrixOuter1"
+         id="feColorMatrix13" />
+      <feMerge
+         id="feMerge19">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode15" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode17" />
+      </feMerge>
+    </filter>
+    <linearGradient
+       x1="50%"
+       y1="0%"
+       x2="50%"
+       y2="100%"
+       id="linearGradient-3">
+      <stop
+         stop-color="#FFE791"
+         offset="0%"
+         id="stop22" />
+      <stop
+         stop-color="#FFD363"
+         offset="100%"
+         id="stop24" />
+    </linearGradient>
+    <linearGradient
+       x1="50%"
+       y1="0%"
+       x2="50%"
+       y2="100%"
+       id="linearGradient-4">
+      <stop
+         stop-color="#F7921A"
+         offset="0%"
+         id="stop27" />
+      <stop
+         stop-color="#FB9E23"
+         offset="100%"
+         id="stop29" />
+    </linearGradient>
+    <circle
+       id="path-5"
+       cx="25.92"
+       cy="25.92"
+       r="19.008" />
+    <filter
+       x="-5.3%"
+       y="-5.3%"
+       width="110.5%"
+       height="110.5%"
+       filterUnits="objectBoundingBox"
+       id="filter-6">
+      <feGaussianBlur
+         stdDeviation="2"
+         in="SourceAlpha"
+         result="shadowBlurInner1"
+         id="feGaussianBlur33" />
+      <feOffset
+         dx="0"
+         dy="0"
+         in="shadowBlurInner1"
+         result="shadowOffsetInner1"
+         id="feOffset35" />
+      <feComposite
+         in="shadowOffsetInner1"
+         in2="SourceAlpha"
+         operator="arithmetic"
+         k2="-1"
+         k3="1"
+         result="shadowInnerInner1"
+         id="feComposite37" />
+      <feColorMatrix
+         values="0 0 0 0 0.867214073   0 0 0 0 0.488282569   0 0 0 0 0.00672378336  0 0 0 1 0"
+         type="matrix"
+         in="shadowInnerInner1"
+         id="feColorMatrix39" />
+    </filter>
+    <text
+       id="text-7"
+       font-family=".HelveticaNeueDeskInterface-Regular, .Helvetica Neue DeskInterface"
+       font-size="25.92"
+       font-weight="normal"
+       fill="#FFDB6D">
+      <tspan
+         x="19.4610732"
+         y="35.368"
+         id="tspan42">₽</tspan>
+    </text>
+    <filter
+       x="-32.2%"
+       y="-50.0%"
+       width="164.3%"
+       height="200.0%"
+       filterUnits="objectBoundingBox"
+       id="filter-8">
+      <feOffset
+         dx="0"
+         dy="0"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset45" />
+      <feGaussianBlur
+         stdDeviation="5"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur47" />
+      <feColorMatrix
+         values="0 0 0 0 0.805776998   0 0 0 0 0.376886864   0 0 0 0 0  0 0 0 1 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         id="feColorMatrix49" />
+    </filter>
+    <filter
+       x="-36.5%"
+       y="-23.1%"
+       width="176.9%"
+       height="146.2%"
+       filterUnits="objectBoundingBox"
+       id="filter-9">
+      <feOffset
+         dx="0"
+         dy="0"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset52" />
+      <feGaussianBlur
+         stdDeviation="3"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur54" />
+      <feColorMatrix
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         result="shadowMatrixOuter1"
+         id="feColorMatrix56" />
+      <feMerge
+         id="feMerge62">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode58" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode60" />
+      </feMerge>
+    </filter>
+    <circle
+       id="path-10"
+       cx="25.92"
+       cy="25.92"
+       r="19.008" />
+    <filter
+       x="-5.3%"
+       y="-5.3%"
+       width="110.5%"
+       height="110.5%"
+       filterUnits="objectBoundingBox"
+       id="filter-11">
+      <feGaussianBlur
+         stdDeviation="2"
+         in="SourceAlpha"
+         result="shadowBlurInner1"
+         id="feGaussianBlur66" />
+      <feOffset
+         dx="0"
+         dy="0"
+         in="shadowBlurInner1"
+         result="shadowOffsetInner1"
+         id="feOffset68" />
+      <feComposite
+         in="shadowOffsetInner1"
+         in2="SourceAlpha"
+         operator="arithmetic"
+         k2="-1"
+         k3="1"
+         result="shadowInnerInner1"
+         id="feComposite70" />
+      <feColorMatrix
+         values="0 0 0 0 0.867214073   0 0 0 0 0.488282569   0 0 0 0 0.00672378336  0 0 0 1 0"
+         type="matrix"
+         in="shadowInnerInner1"
+         id="feColorMatrix72" />
+    </filter>
+    <text
+       id="text-12"
+       font-family=".HelveticaNeueDeskInterface-Regular, .Helvetica Neue DeskInterface"
+       font-size="25.92"
+       font-weight="normal"
+       fill="#FFDB6D">
+      <tspan
+         x="19.4610732"
+         y="35.368"
+         id="tspan75">₽</tspan>
+    </text>
+    <filter
+       x="-32.2%"
+       y="-50.0%"
+       width="164.3%"
+       height="200.0%"
+       filterUnits="objectBoundingBox"
+       id="filter-13">
+      <feOffset
+         dx="0"
+         dy="0"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset78" />
+      <feGaussianBlur
+         stdDeviation="5"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur80" />
+      <feColorMatrix
+         values="0 0 0 0 0.805776998   0 0 0 0 0.376886864   0 0 0 0 0  0 0 0 1 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         id="feColorMatrix82" />
+    </filter>
+    <filter
+       x="-13.5%"
+       y="-12.5%"
+       width="129.2%"
+       height="125.0%"
+       filterUnits="objectBoundingBox"
+       id="filter-14">
+      <feOffset
+         dx="0"
+         dy="0"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset85" />
+      <feGaussianBlur
+         stdDeviation="3"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur87" />
+      <feColorMatrix
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         result="shadowMatrixOuter1"
+         id="feColorMatrix89" />
+      <feMerge
+         id="feMerge95">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode91" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode93" />
+      </feMerge>
+    </filter>
+    <circle
+       id="path-15"
+       cx="43.2"
+       cy="43.2"
+       r="31.68" />
+    <filter
+       x="-4.7%"
+       y="-4.7%"
+       width="109.5%"
+       height="109.5%"
+       filterUnits="objectBoundingBox"
+       id="filter-16">
+      <feGaussianBlur
+         stdDeviation="3"
+         in="SourceAlpha"
+         result="shadowBlurInner1"
+         id="feGaussianBlur99" />
+      <feOffset
+         dx="0"
+         dy="0"
+         in="shadowBlurInner1"
+         result="shadowOffsetInner1"
+         id="feOffset101" />
+      <feComposite
+         in="shadowOffsetInner1"
+         in2="SourceAlpha"
+         operator="arithmetic"
+         k2="-1"
+         k3="1"
+         result="shadowInnerInner1"
+         id="feComposite103" />
+      <feColorMatrix
+         values="0 0 0 0 0.867214073   0 0 0 0 0.488282569   0 0 0 0 0.00672378336  0 0 0 1 0"
+         type="matrix"
+         in="shadowInnerInner1"
+         id="feColorMatrix105" />
+    </filter>
+    <text
+       id="text-17"
+       font-family=".HelveticaNeueDeskInterface-Regular, .Helvetica Neue DeskInterface"
+       font-size="43.2"
+       font-weight="normal"
+       fill="#FFDB6D">
+      <tspan
+         x="32.435122"
+         y="59.28"
+         id="tspan108">₽</tspan>
+    </text>
+    <filter
+       x="-19.3%"
+       y="-29.4%"
+       width="138.6%"
+       height="158.8%"
+       filterUnits="objectBoundingBox"
+       id="filter-18">
+      <feOffset
+         dx="0"
+         dy="0"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset111" />
+      <feGaussianBlur
+         stdDeviation="5"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur113" />
+      <feColorMatrix
+         values="0 0 0 0 0.805776998   0 0 0 0 0.376886864   0 0 0 0 0  0 0 0 1 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         id="feColorMatrix115" />
+    </filter>
+    <polygon
+       id="path-19"
+       points="64 24.1274182 58.3431458 26.6568542 60.8725818 21 58.3431458 15.3431458 64 17.8725818 69.6568542 15.3431458 67.1274182 21 69.6568542 26.6568542" />
+    <filter
+       x="-22.9%"
+       y="-22.9%"
+       width="145.7%"
+       height="145.7%"
+       filterUnits="objectBoundingBox"
+       id="filter-20">
+      <feOffset
+         dx="0"
+         dy="0"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset119" />
+      <feGaussianBlur
+         stdDeviation="2"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur121" />
+      <feColorMatrix
+         values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.500113225 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         id="feColorMatrix123" />
+    </filter>
+    <polygon
+       id="path-21"
+       points="24.1961524 69.541716 19.9535117 71.4387931 21.8505888 67.1961524 19.9535117 62.9535117 24.1961524 64.8505888 28.4387931 62.9535117 26.541716 67.1961524 28.4387931 71.4387931" />
+    <filter
+       x="-35.4%"
+       y="-35.4%"
+       width="170.7%"
+       height="170.7%"
+       filterUnits="objectBoundingBox"
+       id="filter-22">
+      <feOffset
+         dx="0"
+         dy="0"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset127" />
+      <feGaussianBlur
+         stdDeviation="2"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur129" />
+      <feColorMatrix
+         values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.500113225 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         id="feColorMatrix131" />
+    </filter>
+    <polygon
+       id="path-23"
+       points="77.4641016 41.0278107 74.6356745 42.2925287 75.9003925 39.4641016 74.6356745 36.6356745 77.4641016 37.9003925 80.2925287 36.6356745 79.0278107 39.4641016 80.2925287 42.2925287" />
+    <filter
+       x="-60.4%"
+       y="-60.4%"
+       width="220.7%"
+       height="220.7%"
+       filterUnits="objectBoundingBox"
+       id="filter-24">
+      <feOffset
+         dx="0"
+         dy="0"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset135" />
+      <feGaussianBlur
+         stdDeviation="2"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur137" />
+      <feColorMatrix
+         values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.500113225 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         id="feColorMatrix139" />
+    </filter>
+    <filter
+       id="g"
+       width="1.386"
+       height="1.5880001"
+       x="-0.19299999"
+       y="-0.294"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset41" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="5"
+         id="feGaussianBlur43" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0.805776998 0 0 0 0 0.376886864 0 0 0 0 0 0 0 0 1 0"
+         id="feColorMatrix45" />
+    </filter>
+    <filter
+       id="g-2"
+       width="1.386"
+       height="1.5880001"
+       x="-0.19299999"
+       y="-0.294"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset41-0" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="5"
+         id="feGaussianBlur43-9" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0.805776998 0 0 0 0 0.376886864 0 0 0 0 0 0 0 0 1 0"
+         id="feColorMatrix45-3" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient-4"
+       id="linearGradient3981"
+       x1="25.92"
+       y1="6.9120007"
+       x2="25.92"
+       y2="44.927999"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       id="g-24"
+       width="1.386"
+       height="1.5880001"
+       x="-0.19299999"
+       y="-0.294"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset41-7" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="5"
+         id="feGaussianBlur43-91" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0.805776998 0 0 0 0 0.376886864 0 0 0 0 0 0 0 0 1 0"
+         id="feColorMatrix45-2" />
+    </filter>
+    <filter
+       id="g-24-2"
+       width="1.386"
+       height="1.5880001"
+       x="-0.19299999"
+       y="-0.294"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset41-7-0" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="5"
+         id="feGaussianBlur43-91-7" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0.805776998 0 0 0 0 0.376886864 0 0 0 0 0 0 0 0 1 0"
+         id="feColorMatrix45-2-7" />
+    </filter>
+  </defs>
+  <g
+     id="desktop"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="начало-игры--нет-подписки-3"
+       transform="translate(-80.000000, -120.000000)">
+      <g
+         id="Group-3"
+         transform="translate(-45.000000, -30.000000)">
+        <ellipse
+           id="Oval"
+           fill="#BD6924"
+           fill-rule="nonzero"
+           filter="url(#filter-1)"
+           cx="207.8"
+           cy="233.3"
+           rx="61"
+           ry="6.5" />
+        <g
+           id="Icon/Ru"
+           filter="url(#filter-2)"
+           transform="translate(128.000000, 181.000000)">
+          <rect
+             id="Rectangle"
+             x="0"
+             y="0"
+             width="57.6"
+             height="57.6" />
+          <g
+             id="Group-2"
+             transform="translate(2.880000, 2.880000)">
+            <circle
+               id="circle146"
+               fill="url(#linearGradient-3)"
+               cx="25.92"
+               cy="25.92"
+               r="25.92" />
+            <g
+               id="g152">
+              <use
+                 fill="url(#linearGradient-4)"
+                 fill-rule="evenodd"
+                 xlink:href="#path-5"
+                 id="use148" />
+              <use
+                 fill="black"
+                 fill-opacity="1"
+                 filter="url(#filter-6)"
+                 xlink:href="#path-5"
+                 id="use150" />
+            </g>
+            <g
+               id="g88-3"
+               inkscape:transform-center-x="-1.4829887"
+               inkscape:transform-center-y="-1.3600569"
+               style="fill:#ffdb6d"
+               transform="matrix(0.65048734,0,0,0.7313787,-3.4547794,-4.9098531)">
+              <text
+                 y="-1.0681152e-006"
+                 x="-1.1444092e-007"
+                 font-size="43.2"
+                 id="use84-7"
+                 style="font-size:43.20000076px;font-family:'.HelveticaNeueDeskInterface-Regular', '.Helvetica Neue DeskInterface';fill:#ffdb6d;filter:url(#g-24)">
+                <tspan
+                   id="tspan4005"
+                   y="59.279999"
+                   x="32.435001">₽</tspan>
+              </text>
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#feda6b;fill-opacity:1;stroke:none"
+                 x="30.988136"
+                 y="55.242374"
+                 id="text3823-1"><tspan
+                   sodipodi:role="line"
+                   id="tspan3821-2"
+                   x="30.988136"
+                   y="55.242374">$</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g
+           id="Icon/Ru-Copy"
+           transform="translate(224.000000, 181.000000)">
+          <rect
+             id="rect161"
+             x="0"
+             y="0"
+             width="57.6"
+             height="57.6" />
+          <g
+             id="g177"
+             filter="url(#filter-9)"
+             transform="translate(2.880000, 2.880000)">
+            <circle
+               id="circle163"
+               fill="url(#linearGradient-3)"
+               cx="25.92"
+               cy="25.92"
+               r="25.92" />
+            <g
+               id="g169">
+              <use
+                 xlink:href="#path-10"
+                 id="use165"
+                 style="fill:url(#linearGradient3981);fill-rule:evenodd"
+                 x="0"
+                 y="0"
+                 width="100%"
+                 height="100%" />
+              <use
+                 xlink:href="#path-10"
+                 id="use167"
+                 style="fill:#000000;fill-opacity:1;filter:url(#filter-11)"
+                 x="0"
+                 y="0"
+                 width="100%"
+                 height="100%" />
+            </g>
+            <g
+               id="g88-3-3"
+               inkscape:transform-center-x="-1.4829887"
+               inkscape:transform-center-y="-1.3600569"
+               style="fill:#ffdb6d"
+               transform="matrix(0.65048734,0,0,0.7313787,-0.84021499,-5.6376646)">
+              <text
+                 y="-1.0681152e-006"
+                 x="-1.1444092e-007"
+                 font-size="43.2"
+                 id="use84-7-5"
+                 style="font-size:43.20000076px;font-family:'.HelveticaNeueDeskInterface-Regular', '.Helvetica Neue DeskInterface';fill:#ffdb6d;filter:url(#g-24-2)">
+                <tspan
+                   id="tspan4005-9"
+                   y="59.279999"
+                   x="32.435001">₽</tspan>
+              </text>
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#feda6b;fill-opacity:1;stroke:none"
+                 x="30.988136"
+                 y="55.242374"
+                 id="text3823-1-1"><tspan
+                   sodipodi:role="line"
+                   id="tspan3821-2-6"
+                   x="30.988136"
+                   y="55.242374">$</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g
+           id="g215"
+           filter="url(#filter-14)"
+           transform="translate(157.000000, 151.000000)">
+          <rect
+             id="rect180"
+             x="0"
+             y="0"
+             width="96"
+             height="96" />
+          <g
+             id="g196"
+             transform="translate(4.800000, 4.800000)">
+            <circle
+               id="circle182"
+               fill="url(#linearGradient-3)"
+               cx="43.2"
+               cy="43.2"
+               r="43.2" />
+            <g
+               id="g188">
+              <use
+                 fill="url(#linearGradient-4)"
+                 fill-rule="evenodd"
+                 xlink:href="#path-15"
+                 id="use184" />
+              <use
+                 fill="black"
+                 fill-opacity="1"
+                 filter="url(#filter-16)"
+                 xlink:href="#path-15"
+                 id="use186" />
+            </g>
+            <g
+               id="g88"
+               inkscape:transform-center-x="-2.2798118"
+               inkscape:transform-center-y="-1.8595794"
+               style="fill:#ffdb6d"
+               transform="translate(-1.1539338,1.0996495)">
+              <text
+                 y="-1.9073487e-007"
+                 x="7.6293946e-007"
+                 font-size="43.2"
+                 id="use84"
+                 style="font-size:43.20000076px;font-family:'.HelveticaNeueDeskInterface-Regular', '.Helvetica Neue DeskInterface';fill:#ffdb6d;filter:url(#g)">
+                <tspan
+                   id="tspan3951"
+                   y="59.279999"
+                   x="32.435001">₽</tspan>
+              </text>
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#feda6b;fill-opacity:1;stroke:none"
+                 x="32.988136"
+                 y="55.242374"
+                 id="text3823"><tspan
+                   sodipodi:role="line"
+                   id="tspan3821"
+                   x="32.988136"
+                   y="55.242374">$</tspan></text>
+            </g>
+          </g>
+          <g
+             id="Star">
+            <use
+               fill="black"
+               fill-opacity="1"
+               filter="url(#filter-20)"
+               xlink:href="#path-19"
+               id="use198" />
+            <use
+               fill="#FFFFFF"
+               fill-rule="evenodd"
+               xlink:href="#path-19"
+               id="use200" />
+          </g>
+          <g
+             id="g207"
+             transform="translate(24.196152, 67.196152) scale(-1, -1) rotate(30.000000) translate(-24.196152, -67.196152) ">
+            <use
+               fill="black"
+               fill-opacity="1"
+               filter="url(#filter-22)"
+               xlink:href="#path-21"
+               id="use203" />
+            <use
+               fill="#FFFFFF"
+               fill-rule="evenodd"
+               xlink:href="#path-21"
+               id="use205" />
+          </g>
+          <g
+             id="g213"
+             transform="translate(77.464102, 39.464102) scale(-1, -1) rotate(30.000000) translate(-77.464102, -39.464102) ">
+            <use
+               fill="black"
+               fill-opacity="1"
+               filter="url(#filter-24)"
+               xlink:href="#path-23"
+               id="use209" />
+            <use
+               fill="#FFFFFF"
+               fill-rule="evenodd"
+               xlink:href="#path-23"
+               id="use211" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

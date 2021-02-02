@@ -1,0 +1,8 @@
+<div class="uk-margin text-input">
+  <label class="uk-form-label" for="form-stacked-text">{{inputPlaceholder}}</label>
+  <div class="uk-form-controls">
+    <input #myInput class="uk-input" id="form-stacked-text" type="text" [placeholder]="this.placeholder" [class.disabled]="this.disabled"
+           [type]="inputType" [disabled]="disabled" [value]="data || ''" (change)="onChange($event, myInput.value)"
+           (keyup)="onChange($event, myInput.value)" (focus)="onFocus()" (blur)="onBlur($event)">
+  </div>
+</div>

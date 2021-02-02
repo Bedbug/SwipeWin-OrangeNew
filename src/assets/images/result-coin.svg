@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90">
+    <defs>
+        <filter id="a" width="158.5%" height="469.2%" x="-29.3%" y="-184.6%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="6.4"/>
+        </filter>
+        <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFE791"/>
+            <stop offset="100%" stop-color="#FFD363"/>
+        </linearGradient>
+        <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#F7921A"/>
+            <stop offset="100%" stop-color="#FB9E23"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <ellipse cx="44.8" cy="78.8" fill="#BD6924" fill-rule="nonzero" filter="url(#a)" rx="32.8" ry="5.2"/>
+        <path d="M0 0h89.6v89.6H0z"/>
+        <g transform="translate(4.48 4.48)">
+            <circle cx="40.32" cy="40.32" r="40.32" fill="url(#b)"/>
+            <circle cx="40.488" cy="40.488" r="31.528" fill="url(#c)"/>
+        </g>
+        <path fill="#FFF" d="M55.2 18.19l-3.96 1.77L53.01 16l-1.77-3.96 3.96 1.77 3.96-1.77L57.39 16l1.77 3.96zM18.56 62.274l-2.376 1.062 1.062-2.376-1.062-2.376 2.376 1.062 2.376-1.062-1.062 2.376 1.062 2.376z"/>
+    </g>
+</svg>

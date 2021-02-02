@@ -1,0 +1,125 @@
+<!--<div class="slideshow-container" uk-slideshow="animation: fade; min-height: 400; max-height: 600" >-->
+
+<!--  <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">-->
+    <!--<img alt="" src="assets/images/lights.png" uk-cover>-->
+<!--    <ul class="uk-slideshow-items" >-->
+<!--      <li class="list-wrapper" >-->
+<!--        <div class="tut-card "layout="row" layout-align="center center">-->
+<!--          <img class="icon" src="assets/icons/icon-swipe.svg" alt=""/>-->
+<!--          <h2 style="color: black">Swipe Left or Right</h2>-->
+<!--          <div class="item ">-->
+<!--            Подпишитесь на игру Свайпер, проверяйте свою эрудицию и претендуйте на-->
+<!--            главные денежные призы</div>-->
+        
+<!--      </div>-->
+<!--      </li>-->
+<!--      <li class="list-wrapper">-->
+<!--        <div class="tut-card">-->
+<!--          <img class="icon" src="assets/icons/icon-timer.svg" alt=""/>-->
+<!--          <h2 style="color: black">Swipe Left or Right</h2>-->
+<!--          <div class="item ">-->
+<!--            Подпишитесь на игру Свайпер, проверяйте свою эрудицию и претендуйте на-->
+<!--            главные денежные призы</div>-->
+        
+<!--      </div>-->
+<!--      </li>-->
+<!--      <li class="list-wrapper">-->
+<!--        <div class="tut-card">-->
+<!--          <img class="icon" src="assets/icons/icon-prize.svg" alt=""/>-->
+<!--          <h2 style="color: black">Swipe Left or Right</h2>-->
+<!--          <div class="item ">-->
+<!--            Подпишитесь на игру Свайпер, проверяйте свою эрудицию и претендуйте на-->
+<!--            главные денежные призы</div>-->
+        
+<!--      </div>-->
+<!--      </li>-->
+<!--      <li class="list-wrapper">-->
+<!--        <div class="tut-card">-->
+<!--          <img class="icon" src="assets/icons/icon-score.svg" alt=""/>-->
+<!--          <h2 style="color: black">Swipe Left or Right</h2>-->
+<!--          <div class="item ">-->
+<!--            Подпишитесь на игру Свайпер, проверяйте свою эрудицию и претендуйте на-->
+<!--            главные денежные призы</div>-->
+        
+<!--      </div>-->
+<!--      </li>-->
+<!--      <li class="list-wrapper">-->
+<!--        <div class="tut-card">-->
+<!--          <img class="icon" src="assets/images/coins.svg" alt=""/>-->
+<!--          <h2 style="color: black">Swipe Left or Right</h2>-->
+<!--          <div class="item ">-->
+<!--            Подпишитесь на игру Свайпер, проверяйте свою эрудицию и претендуйте на-->
+<!--            главные денежные призы</div>-->
+        
+<!--      </div>-->
+<!--      </li>-->
+<!--    </ul>-->
+
+<!--    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center "></ul>-->
+<!--  </div>-->
+
+
+<!--</div>-->
+
+<!--<div class="buttons-container uk-container uk-text-center">-->
+  
+<!--  <button class="uk-button uk-button-default play-button uk-width-1-1" >Играть</button>-->
+<div class="tutorial">
+  <div class="slideshow-container" data-uk-slideshow="animation: fade; min-height: 400; max-height: 500" >
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+      <ul class="uk-slideshow-items" >
+          <li>
+              <div class="item">
+                <div class="item__image">
+                  <img src="assets/icons/icon-swipe.svg" alt="">
+                </div>
+                <h3>{{'TUTORIAL.MES_01' | translate }}</h3>
+                <div class="item__description">
+                  <p [innerHtml]="'TUTORIAL.MES_02' | translate"></p>
+                </div>
+              </div>
+            </li>
+          <li >
+              <div class="item" >
+                <div class="item__image">
+                  <img src="assets/icons/icon-timer.svg" alt="">
+                </div>
+                <h3>{{'TUTORIAL.MES_03' | translate }}</h3>
+                <div class="item__description">
+                    <p [innerHtml]="'TUTORIAL.MES_04' | translate"></p>
+                </div>
+              </div>
+          </li>
+          <li>
+              <div class="item">
+                <div class="item__image">
+                  <img src="assets/icons/score.svg" alt="">
+                </div>
+                <h3>{{'TUTORIAL.MES_05' | translate }}</h3>
+                <div class="item__description">
+                    <p [innerHtml]="'TUTORIAL.MES_06' | translate"></p>
+                </div>
+              </div>
+          </li>
+          <li>
+              <div class="item">
+                <div class="item__image">
+                  <img src="assets/icons/icon-prize.svg" alt="">
+                </div>
+                <h3>{{'TUTORIAL.MES_07' | translate }}</h3>
+                <div class="item__description">
+                    <p [innerHtml]="'TUTORIAL.MES_08' | translate"></p>
+                </div>
+              </div>
+          </li>
+        
+      </ul>
+      <ul class="uk-slideshow-nav uk-dotnav uk-flex-center "></ul>
+    </div>
+  <div class="buttons-container uk-container uk-text-center" style="max-width:600px" >
+    <!--<app-button [primary]="true">Далее</app-button>-->
+    <app-button [secondary]="true"(click)="changeTutorialFlag()">Skip</app-button>
+  </div>
+  </div>
+ 
+</div>

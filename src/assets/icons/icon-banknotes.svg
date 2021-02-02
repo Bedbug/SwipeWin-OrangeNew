@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="30" viewBox="0 0 40 30">
+    <defs>
+        <path id="a" d="M0 0h40v40H0z"/>
+        <path id="c" d="M0 0h40v40H0z"/>
+        <linearGradient id="d" x1="50%" x2="50%" y1="0%" y2="96.791%">
+            <stop offset="0%" stop-color="#57FA48"/>
+            <stop offset="100%" stop-color="#11BD00"/>
+        </linearGradient>
+        <linearGradient id="f" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#57FA48"/>
+            <stop offset="100%" stop-color="#2BC71C"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(0 -6)">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <g mask="url(#b)">
+            <g>
+                <mask id="e" fill="#fff">
+                    <use xlink:href="#c"/>
+                </mask>
+                <rect width="36" height="22" x="2" y="10" fill="url(#d)" mask="url(#e)" rx="1"/>
+                <rect width="30" height="16" x="5" y="13" stroke="#157F02" stroke-width="2" mask="url(#e)" rx="1"/>
+                <text font-family=".HelveticaNeueDeskInterface-Regular, .Helvetica Neue DeskInterface" font-size="13" mask="url(#e)">
+                    <tspan x="16.827" y="27.5" fill="#157F02">₽</tspan>
+                </text>
+            </g>
+        </g>
+        <g mask="url(#b)">
+            <g transform="rotate(-15 56.979 8.404)">
+                <rect width="36" height="22" fill="url(#f)" rx="1"/>
+                <rect width="30" height="16" x="3" y="3" stroke="#157F02" stroke-width="2" rx="1"/>
+                <text font-family=".HelveticaNeueDeskInterface-Regular, .Helvetica Neue DeskInterface" font-size="13">
+                    <tspan x="14.827" y="15" fill="#FFF">₽</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

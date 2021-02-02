@@ -1,0 +1,90 @@
+<app-button [link_button]="true" id="openmodal" data-uk-modal="{target:'#result'}" uk-toggle="target: #result"></app-button>
+
+<div id="result" class="uk-flex-top"  uk-modal>
+  <!--Top Text-->
+  <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+    <h4>{{TopText}}</h4>
+    <div class="coins">
+      <!--Correct Answers-->
+      <div class="coinWrap">
+        <div class="coin">
+          <div class="coin__number">{{rightAnswerCount}}</div>
+        </div>
+        <p>{{answerMessage}}</p>
+      </div>
+      <!--Won Cash-->
+      <!-- <div class="coinWrap" *ngIf="cashbackAmount > 0">
+        <div class = "cashbackCoin">
+          <div class="coin__number coin__number_light">+{{cashbackAmount}}</div>
+        </div>
+        <p>Cashback Won</p>
+      </div> -->
+    </div>
+    <!-- <p class="hint" style="white-space: pre-line; margin-bottom: 0px;">{{FooterText}}</p> -->
+    <!--<p class="hint hint_fail" *ngIf="rightAnswerCount === 0">Ничего страшного, ты всегда можешь попробовать еще</p>-->
+    <!--<p class="hint" style="white-space: pre-line; margin-bottom: 0px;" *ngIf="_gamesPlayed <= 2">Стоимость игры 15 ₽, максимум две дополн. игры в сутки</p>-->
+    <!--If there are available games to buy play another game-->
+    
+    <br>
+    <button class="uk-button uk-button-default play-button uk-width-1-1 uk-modal-close"  *ngIf="this.session.hasCredit() && _gamesPlayed < 4" (click)="startGame()">{{ 'END.PLAY' | translate }}</button>
+    <button class="uk-button uk-button-default play-button uk-width-1-1 uk-modal-close"  *ngIf="!this.session.hasCredit() && _gamesPlayed < 4" (click)="OpenOTPPurchase()">{{ 'END.BUY' | translate }}</button>
+    <button class="uk-button uk-button-default uk-width-1-1" *ngIf="_gamesPlayed >= 4"  disabled>{{ 'HOME.NOMORE' | translate }}</button>
+    <!-- <app-button [primary]="true"  *ngIf="_gamesPlayed ==0" class="uk-modal-close" (click)="startGame()" >{{ 'END.PLAY' | translate }}</app-button>
+    <app-button [primary]="true"  *ngIf="_gamesPlayed > 0" class="uk-modal-close" (click)="startGame()" >{{ 'END.BUY' | translate }}</app-button> -->
+    <!--<app-button [primary]="true"  *ngIf="_gamesPlayed >=3" class="uk-modal-close" (click)="startFreeGame()" >Играть в удовольствие</app-button>-->
+    <!--Free Play-->
+    <!--<app-button [outlined]="true" class="uk-modal-close">Свободный режим</app-button>-->
+    <!--Return to home page-->
+    <app-button [link_button]="true" [link_button_white]="true" class="uk-modal-close"  (click)="returnHome()">{{ 'END.BACK' | translate }}</app-button>
+  </div>
+</div>
+
+<div id="otp" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+      <div class="buttons-container uk-container uk-text-center" tabindex="-1">
+        <div class="message-container" style="margin-top: 100px">
+          <p style="font-size: 22px;color:  rgb(255, 255, 255);text-align: center;">{{ 'HOME.OTP' | translate }}</p>
+          <!--<p>Услуга оказывается МТС совместно с партнером «ДжЮ Груп»</p>-->
+        </div>
+        <div class="buttons-container uk-container uk-text-center"  style="max-width: 595px; margin-bottom: 0px;">
+          
+          <!-- <h4 style="color:white;">Insert your phone number and password to login</h4> -->
+          <form >
+            <div class="uk-margin" >
+                <div class="uk-inline uk-width-1-1 ">
+                    <a class="uk-form-icon uk-form-icon-flip" ><img class=".uk-position-right" (click)="OpenPass()" src="assets/icons/eye.svg" alt=""></a>
+                    
+                    <input #pin class="uk-input " style="text-align: center;" type="{{passType}}" placeholder="....">
+                </div>
+            </div>
+          </form>
+          
+          <div class="buttons-container uk-container uk-text-center">
+            <p *ngIf="verErrorMes" style="font-size: 12px; color: rgb(255, 255, 255);">{{ 'HOME.VERERROR' | translate }}</p>
+            <button class="uk-button uk-button-default play-button uk-width-1-1 "  (click)="verify(pin.value)">{{ 'HOME.CONFIRM' | translate }}</button> 
+            <!-- <button class="uk-button uk-button-default play-button uk-width-1-1" *ngIf="!sessionService.isSubscribed" (click)="purchaseCredit()">{{ 'HOME.BUY' | translate }}</button> -->
+          </div>
+          <div class="message-container" style="margin-top: 0px;">
+            <!-- <p style="color:rgb(255, 255, 255); font-weight: bold; font-size: 20px;"><a (click)="resetPin()" style="color: rgb(32, 32, 32); text-decoration: underline;">{{ 'HOME.RESEND' | translate }}</a> -->
+            <!-- </p> -->
+            <!--<p>Услуга оказывается МТС совместно с партнером «ДжЮ Груп»</p>-->
+          </div>
+          
+        </div>
+        </div>
+    
+      </div>
+  </div>
+  <div id="error" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+      <img src="assets/images/wanted.svg" alt="">
+      <h4>{{ 'END.MES_01' | translate }}</h4>
+    <pre>{{ 'MESSAGES.MESSAGE_16' | translate }}</pre>
+    <!--<p>{{errorMsg}}</p>-->
+    <!-- <app-button *ngIf="!logOutBtn" [link_button]="true" class="uk-modal-close">{{ 'MESSAGES.MESSAGE_07' | translate }}</app-button> -->
+    
+    <app-button  [link_button]="true" class="uk-modal-close" (click)="OpenResultAgain()">{{ 'MESSAGES.MESSAGE_15' | translate }}</app-button>
+      
+    </div>
+  </div>

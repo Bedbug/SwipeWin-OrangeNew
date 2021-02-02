@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ic-home-off</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#ff6600" offset="0%"></stop>
+            <stop stop-color="#ff6600" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-home-off" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M1.737,12.54 C1.28291655,12.8030898 0.708498047,12.726665 0.339,12.354 C-0.113162049,11.8988812 -0.113162049,11.1641188 0.339,10.709 L11,0 L21.66,10.71 C22.113,11.163 22.113,11.9 21.66,12.354 C21.282,12.734 20.706,12.796 20.263,12.539 L20.263,21.419 C20.263,21.739 20.003,22 19.682,22 L14.476,22 C14.1549609,21.9994484 13.8949995,21.7390396 13.895,21.418 L13.895,15.603 C13.895,15.2815703 13.6344297,15.021 13.313,15.021 L8.687,15.021 C8.36557028,15.021 8.105,15.2815703 8.105,15.603 L8.105,21.418 C8.105,21.74 7.845,22 7.524,22 L2.318,22 C1.99696087,21.9994484 1.73699953,21.7390396 1.737,21.418 L1.737,12.54 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

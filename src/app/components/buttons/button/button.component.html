@@ -1,0 +1,14 @@
+<div class="buttons-container uk-container uk-text-center" >
+  <button
+    (click)="onClick($event)"
+    class="uk-button uk-button-default uk-width-1-1 button"
+    [class.button_primary]="this.primary"
+    [class.button_outlined]="this.outlined"
+    [class.button_secondary]="this.secondary"
+    [class.button_disabled]="this.disabled"
+    [class.button_link]="this.link_button"
+    [class.button_link_white]="this.link_button_white"
+  >
+    <ng-content></ng-content>
+  </button>
+</div>
